@@ -203,6 +203,9 @@ img {
 }
 
 /*--------------- tech skills section-------------*/
+li {
+  list-style: none;
+}
 
 .tech-skills-list,
 .soft-skills-list {
