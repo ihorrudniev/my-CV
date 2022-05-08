@@ -1,6 +1,6 @@
 :root {
-  --main-text-color: #000000;
-  --main-content-title: #000000;
+  --main-text-color: #757575;
+  --main-content-title: #212121;
   --accent-color: #fb6d3a;
   --bg-sidebar-color: #2c2c2c;
 }
@@ -330,7 +330,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #000000;
+  color: var(--main-content-title);
   margin-bottom: 10px;
   width: 600px;
 }
