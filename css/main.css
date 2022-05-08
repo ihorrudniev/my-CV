@@ -273,7 +273,7 @@ body {
   background-color: #f5f7fa;
 }
 
-.main-container {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,7 +288,7 @@ body {
 }
 
 /*------------ main content section------------- */
-.about-me-section {
+.about-me__section {
   margin: 0 0 40px 0;
 }
 
@@ -319,12 +319,12 @@ body {
   color: #595959;
 }
 
-.main-content-section {
+.content__section {
   /* margin: 100px 90px; */
   padding: 50px 50px;
 }
 
-.main-content-title,
+.content__title,
 .my-education-header {
   font-style: normal;
   font-weight: bold;
@@ -336,15 +336,15 @@ body {
 }
 
 /*----------- my project section------------ */
-.my-project-section {
+.project__section {
   margin: 0 0 50px 0;
 }
 
-.my-projects-list {
+.projects__list {
   padding: 0 0 0 17px;
 }
 
-.my-projects-item {
+.projects__item {
   color: #000;
   font-weight: 700;
 }
@@ -358,7 +358,7 @@ body {
   text-decoration: none;
 }
 
-.my-projects-text {
+.projects__text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
