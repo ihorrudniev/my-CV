@@ -1,3 +1,10 @@
+:root {
+  --main-text-color: #000000;
+  --main-content-title: #000000;
+  --accent-color: #fb6d3a;
+  --bg-sidebar-color: #2c2c2c;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -325,6 +332,7 @@ body {
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
+  width: 600px;
 }
 
 /*----------- my project section------------ */
