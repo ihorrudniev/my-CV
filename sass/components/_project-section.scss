@@ -3,16 +3,16 @@
   margin: 0 0 50px 0;
 }
 
-.projects__list {
+.project__list {
   padding: 0 0 0 17px;
 }
 
-.projects__item {
+.project__item {
   color: #000;
   font-weight: 700;
 }
 
-.my-projects-link {
+.project__link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -21,7 +21,14 @@
   text-decoration: none;
 }
 
-.projects__text {
+.project__link:hover,
+.project__link:focus {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+
+.project__text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -30,7 +37,7 @@
   margin-left: 5px;
 }
 
-.my-projects-bracket {
+.project__bracket {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
