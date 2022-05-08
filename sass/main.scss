@@ -1,7 +1,10 @@
-@import "./variables";
+@import "./utils/variables";
 @import "./base/normalize";
-@import "./style";
+@import "./utils/container";
 @import "./components/content-section";
 @import "./components/project-section";
 @import "./components/work-experience";
 @import "./components/sidebar-sections";
+@import "./components/contacts-section";
+@import "./components/tech-skills-section";
+@import "./components/soft-skills";
