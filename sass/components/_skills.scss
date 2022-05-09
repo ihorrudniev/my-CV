@@ -1,19 +1,14 @@
 /*--------------- tech skills section-------------*/
-/* li {
-  list-style: none;
-} */
-
-.tech-skills-list,
-.soft-skills-list {
+.skills__list {
   padding: 0 0 0 18px;
 }
 
-.tech-skills-item,
-.soft-skills-item {
+.skills__item,
+.skills__item {
   color: #fb6d3a;
 }
 
-.tech-skills-item-text {
+.skills__text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

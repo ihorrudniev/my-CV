@@ -1,49 +1,48 @@
-/*------------ main content section------------- */
-
-.about-me__section{
+.summary__section {
+  padding: 10px;
   margin: 0 0 40px 0;
+  background-color: var(--bg-color);
 }
 
-.about-me-profession {
+.profession__title {
   font-style: normal;
   font-weight: bold;
+  text-align: center;
   font-size: 14px;
   line-height: 17px;
-  color: #000;
+  color: var(--main-title-color);
   margin: 0 0 20px 0;
 }
 
-.my-name {
+.name__title {
   font-style: normal;
   font-weight: bold;
+  text-align: center;
   font-size: 45px;
   line-height: 55px;
-  color: #000;
+  color: var(--main-title-color);
   margin: 0 0 25px 0;
 }
 
-.about-me-discription {
+.discription__text {
   /* width: 400px; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-title-color);
 }
 
-.content__section {
-  /* margin: 100px 90px; */
-  padding: 50px 50px;
-}
 
-.content__title,
+
+.section__title,
 .my-education-header {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: var(--main-content-title);
+  color: var(--main-title-color);
   margin-bottom: 10px;
-  // background-color: tomato;
+  background-color: var(--bg-color);
   width: 600px;
 }

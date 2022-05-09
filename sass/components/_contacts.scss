@@ -5,12 +5,12 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #8e949c;
+  color: var(--main-title-color);
   margin-right: 7px;
 }
 
-.contacts-section-link {
-  color: #8e949c;
+.contacts__link {
+  color: var(--main-title-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -18,8 +18,8 @@
   text-decoration: none;
 }
 
-.contacts-section-link:hover,
-.contacts-section-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: #fb6d3a;
   font-weight: 600;
 }

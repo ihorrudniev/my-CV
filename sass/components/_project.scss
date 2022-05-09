@@ -1,10 +1,11 @@
 /*----------- my project section------------ */
 .project__section {
   margin: 0 0 50px 0;
-}
+ }
 
 .project__list {
   padding: 0 0 0 17px;
+  list-style: none;
 }
 
 .project__item {
@@ -25,6 +26,7 @@
 .project__link:focus {
   color: var(--accent-color);
   font-weight: 600;
+  
 }
 
 
@@ -37,10 +39,10 @@
   margin-left: 5px;
 }
 
-.project__bracket {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-}
+// .project__bracket {
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 14px;
+//   line-height: 24px;
+//   color: #000000;
+// }
