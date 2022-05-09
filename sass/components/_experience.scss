@@ -1,7 +1,7 @@
 /* ------------- My Work Experience------------ */
-.my-work-experience-section {
-  margin-bottom: 45px;
-}
+// .my-work-experience-section {
+//   margin-bottom: 45px;
+// }
 
 .my-work-expirience-position {
   font-style: normal;
@@ -17,7 +17,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: var(--main-text-color);
 }
 
 .my-work-expirience-divider {
@@ -33,7 +33,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-text-color);
 }
 
 .my-work-expirience-company,

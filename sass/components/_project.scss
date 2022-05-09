@@ -1,7 +1,7 @@
 /*----------- my project section------------ */
-.project__section {
-  margin: 0 0 50px 0;
- }
+// .project__section {
+//   margin: 0 0 50px 0;
+//  }
 
 .project__list {
   padding: 0 0 0 17px;
@@ -16,8 +16,8 @@
 .project__link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  // font-size: 14px;
+  // line-height: 24px;
   color: #595959;
   text-decoration: none;
 }
@@ -29,14 +29,15 @@
   
 }
 
-
 .project__text {
+  margin: 0px;
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  // font-size: 14px;
+  // line-height: 24px;
   color: #595959;
-  margin-left: 5px;
+
 }
 
 // .project__bracket {
