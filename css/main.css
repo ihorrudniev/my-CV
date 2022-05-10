@@ -334,9 +334,9 @@ img {
 /*------------ main content section------------- */
 .content__section {
   padding-top: 20px;
-  padding-right: 60px;
-  padding-bottom: 40px;
   padding-left: 60px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .profession__title {
@@ -380,7 +380,7 @@ img {
 
 /*----------- my project section------------ */
 .project__list {
-  padding: 0 0 0 17px;
+  padding: 0;
   list-style: none;
 }
 
