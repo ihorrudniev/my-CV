@@ -1,9 +1,9 @@
 /* ------------- My Work Experience------------ */
-// .my-work-experience-section {
+// .experience__section {
 //   margin-bottom: 45px;
 // }
 
-.my-work-expirience-position {
+.expirience__title {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -12,23 +12,21 @@
   margin: 0 0 10px 0;
 }
 
-.my-work-expirience-period {
+.expirience-period__text {
+  margin: 0 0 10px 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: var(--main-text-color);
 }
 
-.my-work-expirience-divider {
-  color: #000;
-}
-
-.my-work-expirience-duties {
+.expirience__item {
   padding: 0 0 0 18px;
 }
 
-.my-work-expirience-duty {
+.expirience__list {
+  margin: 0 0 10px 0;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -36,20 +34,25 @@
   color: var(--main-text-color);
 }
 
-.my-work-expirience-company,
-.my-education-university {
-  color: #fb6d3a;
+.expirience-company__title,
+.education__title {
+  margin: 0 0 10px 0;
+  // border-bottom: 5px solid tomato;
+  color: var(--main-text-color);
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 20px;
+  // text-decoration-line: underline;
+  
 }
 
-.my-work-expirience-company-block {
-  margin: 0 0 15px 0;
+.expirience-company__block {
+  margin: 0 0 20px 0;
 }
 
-.my-education-faculty {
+.education-faculty__title {
+  margin: 0 0 10px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
