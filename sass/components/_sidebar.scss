@@ -1,9 +1,7 @@
 /* ------------ sidebar section --------------- */
 .saidbar__section {
-  // margin: 20px;
-  // padding: 20px 0;
   background-color: var(--bg-color);
-  color: #fff;
+  color: var(--main-title-color);
   width: 370px;
   
 }
@@ -25,7 +23,7 @@ img {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #fff;
+  color: var(--main-title-color);
   margin-bottom: 10px;
 }
 
@@ -34,8 +32,6 @@ img {
 .contacts-section-type {
   font-style: normal;
   font-weight: bold;
-  // font-size: 14px;
-  // line-height: 24px;
   color: var(--main-title-color);
   margin-right: 7px;
 }

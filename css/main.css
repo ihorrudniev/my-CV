@@ -1,7 +1,6 @@
 :root {
-  --main-text-color: #181818;
   --main-title-color: #f3f3f3;
-  --section-title-color: #c97e45;
+  --main-text-color: #181818;
   --accent-color: #fb6d3a;
   --bg-color: #2b3a51;
   --main-bg-color:#ffffff;
@@ -276,14 +275,12 @@ summary {
   display: flex;
   width: 1200px;
   background-color: var(--main-bg-color);
-  /* margin: 40px auto; */
-  /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
 }
 
 /* ------------ sidebar section --------------- */
 .saidbar__section {
   background-color: var(--bg-color);
-  color: #fff;
+  color: var(--main-title-color);
   width: 370px;
 }
 
@@ -304,7 +301,7 @@ img {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #fff;
+  color: var(--main-title-color);
   margin-bottom: 10px;
 }
 
@@ -396,14 +393,15 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 
 .project__link:hover,
 .project__link:focus {
-  color: var(--accent-color);
   font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .project__title {
@@ -417,7 +415,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-text-color);
 }
 
 /* ------------- My Work Experience------------ */
@@ -426,7 +424,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
+  color: var(--main-text-color);
   margin: 0 0 10px 0;
 }
 
@@ -481,7 +479,7 @@ img {
 
 .skills__item,
 .skills__item {
-  color: #fb6d3a;
+  color: var(--accent-color);
 }
 
 .skills__text {
@@ -489,6 +487,6 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: var(--main-title-color);
 }
 /*# sourceMappingURL=main.css.map */

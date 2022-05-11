@@ -1,8 +1,4 @@
 /*----------- my project section------------ */
-// .project__section {
-//   margin: 0 0 50px 0;
-//  }
-
 .project__list {
   padding: 0;
   list-style: none;
@@ -20,16 +16,15 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-text-color);
   text-decoration: none;
-
 }
 
 .project__link:hover,
 .project__link:focus {
-  color: var(--accent-color);
   font-weight: 600;
-  
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .project__title{
@@ -39,19 +34,10 @@
 
 .project__text {
   margin: 0px;
-  // margin-bottom: 10px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-text-color);
 
 }
-
-// .project__bracket {
-//   font-style: normal;
-//   font-weight: bold;
-//   font-size: 14px;
-//   line-height: 24px;
-//   color: #000000;
-// }
