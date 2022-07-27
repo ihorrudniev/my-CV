@@ -317,8 +317,8 @@ img {
   color: var(--main-title-color);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 30px;
   text-decoration: none;
 }
 
@@ -339,7 +339,7 @@ img {
 .profession__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 17px;
   color: var(--main-text-color);
   margin: 0;
@@ -391,8 +391,8 @@ img {
   display: block;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   color: var(--main-text-color);
   text-decoration: none;
 }
@@ -413,8 +413,8 @@ img {
   margin: 0px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   color: var(--main-text-color);
 }
 
@@ -485,7 +485,7 @@ img {
 .skills__text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 30px;
   color: var(--main-title-color);
 }/*# sourceMappingURL=main.css.map */
